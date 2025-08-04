@@ -25,6 +25,10 @@ fade {
     opacity: 70%;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Crimson Text', serif;
+}
+
 a {
     color: var(--text-color);
     font-style: italic;
@@ -38,7 +42,7 @@ figure {
 
 .poem-figure {
     width: fit-content;
-    font-family: 'Crimson Text';
+    font-family: 'Crimson Text', serif;
     padding: 1rem;
     gap: 1ch;
     border: solid var(--text-color) 1px; 
@@ -56,4 +60,12 @@ figure {
 
 .poem-figure > p:last-of-type {
     margin-bottom: 0;
+}
+
+img {
+    image-rendering: pixelated;
+}
+
+.long-image {
+    width: 100%;
 }
