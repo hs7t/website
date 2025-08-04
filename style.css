@@ -1,6 +1,6 @@
 :root {
-    --text-color: #1c1c1c;
-    --background-color: #efefef;
+  --text-color: #1c1c1c;
+  --background-color: #efefef;
 }
 
 body {
@@ -17,55 +17,60 @@ main {
 }
 
 section {
-    border-top: black 1px dotted;
-    margin-bottom: 5ch;
+  border-top: black 1px dotted;
+  margin-bottom: 5ch;
 }
 
 fade {
-    opacity: 70%;
+  opacity: 70%;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Crimson Text', serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Crimson Text", serif;
 }
 
 a {
-    color: var(--text-color);
-    font-style: italic;
-    text-decoration: underline;
+  color: var(--text-color);
+  font-style: italic;
+  text-decoration: underline;
 }
 
 figure {
-    margin-inline-start: 0;
-    margin-bottom: 2em;
+  margin-inline-start: 0;
+  margin-bottom: 2em;
 }
 
 .poem-figure {
-    width: fit-content;
-    font-family: 'Crimson Text', serif;
-    padding: 1rem;
-    gap: 1ch;
-    border: solid var(--text-color) 1px; 
+  width: fit-content;
+  font-family: "Crimson Text", serif;
+  padding: 1rem;
+  gap: 1ch;
+  border: solid var(--text-color) 1px;
 }
 
 .poem-figure > h3 {
-    margin: 0;
-    margin-bottom: 1ch;
+  margin: 0;
+  margin-bottom: 1ch;
 }
 
 .poem-figure > p {
-    margin: 0;
-    margin-bottom: 1ch;
+  margin: 0;
+  margin-bottom: 1ch;
 }
 
 .poem-figure > p:last-of-type {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 img {
-    image-rendering: pixelated;
+  image-rendering: pixelated;
 }
 
 .long-image {
-    width: 100%;
+  width: 100%;
 }
