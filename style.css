@@ -1,5 +1,12 @@
+:root {
+    --text-color: #1c1c1c;
+    --background-color: #efefef;
+}
+
 body {
   font-family: Inter, Arial, Helvetica, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 main {
@@ -7,4 +14,46 @@ main {
   font-size: 1.1rem;
   margin: auto;
   margin-top: 10vh;
+}
+
+section {
+    border-top: black 1px dotted;
+    margin-bottom: 5ch;
+}
+
+fade {
+    opacity: 70%;
+}
+
+a {
+    color: var(--text-color);
+    font-style: italic;
+    text-decoration: underline;
+}
+
+figure {
+    margin-inline-start: 0;
+    margin-bottom: 2em;
+}
+
+.poem-figure {
+    width: fit-content;
+    font-family: 'Crimson Text';
+    padding: 1rem;
+    gap: 1ch;
+    border: solid var(--text-color) 1px; 
+}
+
+.poem-figure > h3 {
+    margin: 0;
+    margin-bottom: 1ch;
+}
+
+.poem-figure > p {
+    margin: 0;
+    margin-bottom: 1ch;
+}
+
+.poem-figure > p:last-of-type {
+    margin-bottom: 0;
 }
